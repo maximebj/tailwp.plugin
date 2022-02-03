@@ -161,7 +161,7 @@
 
 
   <!-- Main Content -->
-  <div class="flex-auto bg-white px-6 py-8">
+  <div class="flex-auto bg-white px-6 py-8 max-w-[1230px]">
     
     <!-- Title -->
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
@@ -197,11 +197,55 @@
     <!-- Account + Quick Actions Columns -->
     <div class="flex">
       <div class="flex-auto">
-        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">My Account</h3>
+        <h3 class="flex mt-10 pb-2 border-b">
+          <span class="text-base flex-auto font-semibold text-orange-600">My Account</span>
+          <a class="text-gray-500 pr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            Refresh info
+          </a>
+        </h3>
+
+        <div class="flex items-center pt-2">
+          <div class="flex-auto">
+            <p class="font-semibold text-sm mt-4">Licence <span class="text-emerald-500 pl-3">Infinite</span></p>
+            <p class="font-semibold text-sm mt-4">
+              Expiration date 
+              <span class="text-emerald-500 pl-3">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                December 31, 2024
+              </span>
+            </p>
+          </div>
+          <div>
+            <a href="#" class="flex items-center my-2 p-2 min-w-[180px] bg-indigo-900 text-white rounded uppercase shadow">
+              <p class="flex-auto text-xs">View my account</p>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
 
         <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Rocket CDN</h3>
 
+        <p class="font-semibold text-sm mt-4 text-red-500">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+          </svg>
+          RocketCDN is unavailable on local domains and staging sites.
+        </p>
+
         <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">My Status</h3>
+
+        <div class="bg-gray-50 border rounded mt-4 p-4">
+          <p class="font-semibold">Rocket Analytics</p>
+          <p class="mt-2">I agree to share anonymous data with the development team to help improve WP Rocket. <a href="#">What info will we collect?</a></p>
+        </div>
 
  
       </div>
@@ -251,10 +295,109 @@
       <div class="flex-auto">
         <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Getting Started</h3>
 
+        <div class="bg-gray-50 border rounded mt-4 p-4">
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
+            </svg>
+            What WP Rocket Does For You By Default
+          </a>
+
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
+            </svg>
+            Finding the Best Settings for Your Site
+          </a>
+
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
+            </svg>
+            How to Check if WP Rocket is Caching Your Site
+          </a>
+
+          <a href="#" class="block text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" viewBox="0 0 20 20" fill="currentColor">
+              <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z" />
+            </svg>
+            How to Measure the Speed of Your Site
+          </a>
+        </div>
+
+        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Frequently Asked Questions</h3>
+        
+        <div class="bg-gray-50 border rounded mt-4 p-4">
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Pages Are Not Cached or CSS and JS Minification Are Not Working
+          </a>
+
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Google PageSpeed Grade does not Improve
+          </a>
+
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            My Site Is Broken
+          </a>
+
+          <a href="#" class="block mb-3 text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Eliminate Render Blocking Resources
+          </a>
+
+          <a href="#" class="block text-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            How to check if WP Rocket is caching your pages
+          </a>
+
+          <hr class="my-4">
+
+          <div class="flex items-center">
+            <div class="flex-1">
+              <p class="font-semibold text-sm">Still cannot find a solution?</p>
+              <p class="text-gray-500 mt-1">Submit a ticket and get help from our friendly and knowledgeable Rocketeers.</p>
+            </div>
+            <div class="flex-1 text-right">
+              <a href="#" class="inline-flex items-center text-left p-2 min-w-[160px] bg-cyan-500 text-white rounded uppercase shadow">
+                <p class="flex-auto text-xs">Ask Support</p>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+                </svg>
+              </a>
+              
+            </div>
+          </div>
+
+
+        </div>
+
  
       </div>
 
-      <div class="w-[325px] pl-6">
+      <div class="w-[325px] ml-6">
+
+        <!-- Documentation -->
+        <div class="bg-cyan-500 text-white text-center rounded px-6 py-12 mt-24">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+          </svg>
+          <p class="font-bold text-lg">Documentation</p>
+          <p class="mt-3 mb-6">It is a great starting point to fix some of the most common issues.</p>
+          <a href="#" class="py-2 px-4 text-xs bg-cyan-700 text-white rounded uppercase shadow hover:text-white">Read the documentation</a>
+        </div>
         
       </div>
 
