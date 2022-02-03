@@ -161,7 +161,7 @@
 
 
   <!-- Main Content -->
-  <div class="flex-auto bg-white px-6 py-8 max-w-[1230px]">
+  <div class="flex-1 bg-white px-6 py-8 max-w-[1230px]">
     
     <!-- Title -->
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
@@ -196,7 +196,7 @@
 
     <!-- Account + Quick Actions Columns -->
     <div class="flex">
-      <div class="flex-auto">
+      <div class="flex-1">
         <h3 class="flex mt-10 pb-2 border-b">
           <span class="text-base flex-auto font-semibold text-orange-600">My Account</span>
           <a class="text-gray-500 pr-2">
@@ -223,8 +223,8 @@
           <div>
             <a href="#" class="flex items-center my-2 p-2 min-w-[180px] bg-indigo-900 text-white rounded uppercase shadow">
               <p class="flex-auto text-xs">View my account</p>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
               </svg>
             </a>
           </div>
@@ -292,7 +292,7 @@
 
     <!-- Getting Started + Documentation Columns -->
     <div class="flex mt-12">
-      <div class="flex-auto">
+      <div class="flex-1">
         <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Getting Started</h3>
 
         <div class="bg-gray-50 border rounded mt-4 p-4">
