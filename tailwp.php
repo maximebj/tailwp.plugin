@@ -24,7 +24,6 @@ add_action( 'admin_menu', 'tailwp_register_page' );
 # Enqueue style in WP Admin
 function tailwp_enqueue_assets( string $hook ): void
 {
-  
   if( str_contains( $hook, 'tailwp' ) ) { 
     wp_enqueue_style( 'tailwp', plugin_dir_url( __FILE__ ) . 'dist/styles.css', [], '1.0', 'all' );
   }
@@ -61,7 +60,20 @@ function tailwp_register_page(): void
     'tailwp-woocommerce', 
     function () { include 'templates/woocommerce.php'; }
   );
+
+  add_submenu_page( 
+    'tailwp', 
+    'Umbrella', 
+    'Umbrella', 
+    'manage_options', 
+    'tailwp-umbrella', 
+    function () { include 'templates/umbrella.php'; }
+  );
 } 
 
+function tailwp_path( string $path = '' ): void
+{
+  echo plugin_dir_url( __FILE__ ) . $path;
+}
 
 
