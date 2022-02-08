@@ -49,7 +49,10 @@ function tailwp_register_page(): void
     'WP Rocket', 
     'manage_options', 
     'tailwp-wprocket',
-    function () { include 'templates/wprocket.php'; },
+    function () { 
+      $tab = isset( $_GET['tab'] ) ? $_GET['tab'] : 'dashboard';
+      include "templates/wprocket/$tab.php"; 
+    }
   );
 
   add_submenu_page( 
@@ -71,7 +74,7 @@ function tailwp_register_page(): void
   );
 } 
 
-function tailwp_path( string $path = '' ): void
+function tailwp_url( string $path = '' ): void
 {
   echo plugin_dir_url( __FILE__ ) . $path;
 }

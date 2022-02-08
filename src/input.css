@@ -4,5 +4,31 @@
 
 
 #wpcontent {
-  @apply pl-0
+  @apply pl-0;
+}
+
+.toggle-checkbox input {
+  display: none !important;
+}
+
+.toggle-checkbox input:checked + label {
+  @apply bg-green-400;
+}
+
+.toggle-checkbox input:checked + label:after {
+  @apply translate-x-full border-green-400;
+}
+
+input[type=checkbox] {
+  @apply m-0 mr-3;
+}
+
+input[type=text], 
+input[type=number],
+.wp-core-ui select {
+  @apply bg-gray-100 border-gray-300 px-2 py-2 font-semibold text-sm;
+}
+
+.wp-core-ui select {
+  @apply translate-y-[-1px]
 }

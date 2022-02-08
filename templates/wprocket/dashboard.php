@@ -1,13 +1,15 @@
 <!-- Container -->
 <div class="p-4 flex">
   
-  <!-- Sidebar -->
+  <!-- Left Sidebar -->
   <div class="flex flex-col w-[225px]">
-    <img class="p-8" src="<?php tailwp_path() ?>/img/logo-wprocket-dark.svg" alt="Logo">
+    <img class="p-8" src="<?php tailwp_url() ?>/img/logo-wprocket-dark.svg" alt="Logo">
 
     <!-- Navigation -->
     <nav class="flex-auto">
-      <a href="#" class="flex iitems px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
+
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=dashboard" class="flex iitems px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
           <p class="text-orange-600 uppercase font-bold">Dashboard</p>
           <p class="text-gray-500 font-light">Get help, account info</p>
@@ -19,7 +21,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=cache" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Cache</p>
           <p class="text-gray-500 font-light">Basic cache options</p>
@@ -31,7 +34,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=file-optimization" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">File optimization</p>
           <p class="text-gray-500 font-light">Optimize CSS & JS</p>
@@ -43,7 +47,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Média</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
@@ -55,7 +60,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=preload" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Preload</p>
           <p class="text-gray-500 font-light">Generate cache files, preload font</p>
@@ -67,7 +73,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=advanced-rules" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Advanced Rules</p>
           <p class="text-gray-500 font-light">Fine-tune cache rules</p>
@@ -79,7 +86,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=database" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Database</p>
           <p class="text-gray-500 font-light">Optimize, reduce bloat</p>
@@ -91,7 +99,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=cdn" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">CDN</p>
           <p class="text-gray-500 font-light">Integrate your CDN</p>
@@ -103,7 +112,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=heartbeat" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Heartbeat</p>
           <p class="text-gray-500 font-light">Control WordPress Heartbeat API</p>
@@ -115,7 +125,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=add-ons" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Add-ons</p>
           <p class="text-gray-500 font-light">Add more features</p>
@@ -127,7 +138,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=tools" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Tools</p>
           <p class="text-gray-500 font-light">Import, Export, Rollback</p>
@@ -140,7 +152,8 @@
         </div>
       </a>
 
-      <a href="#" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=tutorials" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
           <p class="uppercase font-bold">Tutorials</p>
           <p class="text-gray-500 font-light">Getting started and how to videos</p>
@@ -153,6 +166,7 @@
       </a>
     </nav>
 
+    <!-- Version -->
     <div class="px-5 pt-10 text-gray-400 leading-10 text-xs">
       Version 3.10.17
     </div>
@@ -163,7 +177,7 @@
   <!-- Main Content -->
   <div class="flex-1 bg-white px-6 py-8 max-w-[1230px]">
     
-    <!-- Title -->
+    <!-- Main Title -->
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -173,7 +187,7 @@
       <h2 class="flex-auto font-medium text-2xl">Dashboard</h2>
     </div>
 
-    <!-- Alert -->
+    <!-- Green Alert -->
     <div class="relative mt-7 pl-10 pr-[25%] py-6 bg-emerald-50">
       <p class="text-base font-semibold mb-5">Congratulations!</p>
       <h2 class="text-2xl font-semibold text-emerald-400 mb-5">
@@ -197,7 +211,9 @@
     <!-- Account + Quick Actions Columns -->
     <div class="flex">
       <div class="flex-1">
-        <h3 class="flex mt-10 pb-2 border-b">
+        
+        <!-- Section Title -->
+        <h3 class="flex mt-12 pb-2 border-b">
           <span class="text-base flex-auto font-semibold text-orange-600">My Account</span>
           <a class="text-gray-500 pr-2">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -230,8 +246,8 @@
           </div>
         </div>
 
-
-        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Rocket CDN</h3>
+        <!-- Section Title -->
+        <h3 class="text-base font-semibold text-orange-600 mt-12 pb-2 border-b">Rocket CDN</h3>
 
         <p class="font-semibold text-sm mt-4 text-red-500">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" viewBox="0 0 20 20" fill="currentColor">
@@ -240,21 +256,38 @@
           RocketCDN is unavailable on local domains and staging sites.
         </p>
 
-        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">My Status</h3>
+        <!-- Section Title -->
+        <h3 class="text-base font-semibold text-orange-600 mt-12 pb-2 border-b">My Status</h3>
 
-        <div class="bg-gray-50 border rounded mt-4 p-4">
-          <p class="font-semibold">Rocket Analytics</p>
-          <p class="mt-2">I agree to share anonymous data with the development team to help improve WP Rocket. <a href="#">What info will we collect?</a></p>
+        <div class="flex bg-gray-50 border rounded mt-4 p-4">
+          <div>
+            
+            <!-- Toggle -->
+            <div class="toggle-checkbox inline-block w-12 select-none">
+              <input type="checkbox" name="analytics" id="analytics">
+              <label for="analytics" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
+            </div>
+          
+          </div>
+          <div class="pl-4">
+            <label for="analytics" class="font-semibold">Rocket Analytics</label>
+            <p class="mt-2">I agree to share anonymous data with the development team to help improve WP Rocket. <a href="#">What info will we collect?</a>
+            </p>
+          </div>
         </div>
 
- 
       </div>
 
       <div class="w-[325px] ml-6">
+        
+        <!-- Section Title -->
         <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Quick Actions</h3>
 
+        <!-- Actions Block -->
         <div class="bg-gray-50 border rounded mt-4 p-4">
           <h4 class="font-bold">Remove all cached files</h4>
+          
+          <!-- Icon Button -->
           <a href="#" class="flex items-center my-2 p-2 max-w-[160px] bg-orange-600 text-white rounded uppercase shadow">
             <p class="flex-auto text-xs">Clear cache</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -266,10 +299,11 @@
 
           <h4 class="font-bold">Start cache preloading</h4>
 
+          <!-- Icon Button -->
           <a href="#" class="flex items-center my-2 p-2 max-w-[160px] bg-orange-600 text-white rounded uppercase shadow">
-            <p class="flex-auto text-xs">Clear cache</p>
+            <p class="flex-auto text-xs">Preload cache</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
             </svg>
           </a>
 
@@ -277,6 +311,7 @@
 
           <h4 class="font-bold">Purge OPCache content</h4>
 
+          <!-- Icon Button -->
           <a href="#" class="flex items-center my-2 p-2 max-w-[160px] bg-orange-600 text-white rounded uppercase shadow">
             <p class="flex-auto text-xs">Purge OPCache</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -291,10 +326,13 @@
 
 
     <!-- Getting Started + Documentation Columns -->
-    <div class="flex mt-12">
+    <div class="flex">
       <div class="flex-1">
-        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Getting Started</h3>
 
+        <!-- Section Title -->
+        <h3 class="text-base font-semibold text-orange-600 mt-12 pb-2 border-b">Getting Started</h3>
+
+        <!-- List Block -->
         <div class="bg-gray-50 border rounded mt-4 p-4">
           <a href="#" class="block mb-3 text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" viewBox="0 0 20 20" fill="currentColor">
@@ -325,8 +363,10 @@
           </a>
         </div>
 
-        <h3 class="text-base font-semibold text-orange-600 mt-10 pb-2 border-b">Frequently Asked Questions</h3>
+        <!-- Section Title -->
+        <h3 class="text-base font-semibold text-orange-600 mt-12 pb-2 border-b">Frequently Asked Questions</h3>
         
+        <!-- List Block -->
         <div class="bg-gray-50 border rounded mt-4 p-4">
           <a href="#" class="block mb-3 text-sm">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-cyan-700 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -380,31 +420,24 @@
               
             </div>
           </div>
-
-
         </div>
-
- 
       </div>
 
       <div class="w-[325px] ml-6">
 
         <!-- Documentation -->
-        <div class="bg-cyan-500 text-white text-center rounded px-6 py-12 mt-24">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div class="bg-cyan-500 text-white text-center rounded px-6 py-8 mt-24">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
           <p class="font-bold text-lg">Documentation</p>
           <p class="mt-3 mb-6">It is a great starting point to fix some of the most common issues.</p>
           <a href="#" class="py-2 px-4 text-xs bg-cyan-700 text-white rounded uppercase shadow hover:text-white">Read the documentation</a>
         </div>
-        
+
       </div>
-
     </div>
-
   </div>
-
 </div>
 
 <!-- Help Beacon -->
