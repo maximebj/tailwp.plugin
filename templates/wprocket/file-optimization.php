@@ -21,26 +21,26 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=cache" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=cache" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Cache</p>
+          <p class="uppercase font-bold">Cache</p>
           <p class="text-gray-500 font-light">Basic cache options</p>
         </div>
-        <div class="pl-4 text-orange-600">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
           </svg>
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=file-optimization" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=file-optimization" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">File optimization</p>
+          <p class="text-orange-600 uppercase font-bold">File Optimization</p>
           <p class="text-gray-500 font-light">Optimize CSS & JS</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M5 8h14M5 8a2 2 0 110-4h14a2 2 0 110 4M5 8v10a2 2 0 002 2h10a2 2 0 002-2V8m-9 4h4" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Cache</h2>
+      <h2 class="flex-auto font-medium text-2xl">File Optimization</h2>
       <div class="flex items-center font-semibold text-sm text-gray-500">
         <div class="mr-4">Show sidebar</div>
 
@@ -197,7 +197,7 @@
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Mobile Cache</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">CSS Files</span>
       <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -206,26 +206,41 @@
       </a>
     </h3>
 
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Speed up your site for mobile visitors.</p>
-
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="mobile-caching">
-      <label for="mobile-caching" class="font-semibold text-sm">Enable caching for mobile devices</label>
-      <hr class="my-5">
-      <div class="flex pl-8">
-        <input type="checkbox" id="separate-mobile-caching">
+      <div class="flex">
+        <input type="checkbox" id="minify-css">
         <div>
-          <label for="separate-mobile-caching" class="font-semibold text-sm">Separate cache file for mobile devices</label>
-          <p class="mt-2 text-xs text-gray-500">Most modern themes are responsive and should work without a separate cache. Enable this only if you have a dedicated mobile theme or plugin. <a href="#" class="underline">More info</a></p>
+          <label for="minify-css" class="font-semibold text-sm">Minify CSS files</label>
+          <p class="mt-2 text-xs text-gray-500">Minify CSS removes whitespace and comments to reduce the file size.</p>
         </div>
       </div>
+
+      <hr class="my-5">
+
+      <div class="flex opacity-70">
+        <input type="checkbox" id="combine-css">
+        <div>
+          <label for="combine-css" class="font-semibold text-sm">Combine CSS files</label>
+          <p class="mt-2 text-xs text-gray-500">Combine CSS merges all your files into 1, reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
+        </div>
+      </div>
+
+      <hr class="my-5">
+
+      <div class="flex">
+        <input type="checkbox" id="optimize-css">
+        <div>
+          <label for="optimize-css" class="font-semibold text-sm">Optimize CSS delivery</label>
+          <p class="mt-2 text-xs text-gray-500">Optimize CSS delivery eliminates render-blocking CSS on your website. Only one method can be selected. Remove Unused CSS is recommended for optimal performance.</p>
+        </div>
+      </div>
+
     </div>
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">User Cache</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">JavaScript Files</span>
       <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -234,51 +249,46 @@
       </a>
     </h3>
 
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">
-      <a href="#" class="underline transition duration-200 ease-in hover:text-cyan-400">User cache</a> is great when you have user-specific or restricted content on your website.
-    </p>
-
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="logged-caching">
-      <label for="logged-caching" class="font-semibold text-sm">Enable caching for logged-in WordPress users</label>
-    </div>
+      <div class="flex">
+        <input type="checkbox" id="minify-js">
+        <div>
+          <label for="minify-js" class="font-semibold text-sm">Minify JavaScript files</label>
+          <p class="mt-2 text-xs text-gray-500">Minify JavaScript removes whitespace and comments to reduce the file size.</p>
+        </div>
+      </div>
 
-    <!-- Section Title -->
-    <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Cache Lifespan</span>
-      <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-        </svg>
-        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
-      </a>
-    </h3>
+      <hr class="my-5">
 
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">
-      Cache files older than the specified lifespan will be deleted. <br>
-      Enable <a href="#" class="underline transition duration-200 ease-in hover:text-cyan-400">preloading</a> for the cache to be rebuilt automatically after lifespan expiration.
-    </p>
+      <div class="flex opacity-70">
+        <input type="checkbox" id="combine-js">
+        <div>
+          <label for="combine-js" class="font-semibold text-sm">Combine JavaScript files</label>
+          <p class="mt-2 text-xs text-gray-500">Combine JavaScript files combines your site’s internal, 3rd party and inline JS reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
+        </div>
+      </div>
 
-    <!-- Field Container -->
-    <div class="bg-gray-50 border rounded mt-4 p-4">
-      <label for="cache-lifespan" class="font-semibold text-sm">
-        Specify time after which the global cache is cleared <br>
-        (0 = unlimited )
-      </label>
+      <hr class="my-5">
 
-      <p class="text-green-600 text-xs my-2">
-        Reduce lifespan to 10 hours or less if you notice issues that seem to appear periodically. 
-        <a href="#">Why?</a>
-      </p>
+      <div class="flex">
+        <input type="checkbox" id="defer-js">
+        <div>
+          <label for="defer-js" class="font-semibold text-sm">Load JavaScript defered</label>
+          <p class="mt-2 text-xs text-gray-500">Load JavaScript deferred eliminates render-blocking JS on your site and can improve load time. <a href="#" class="underline">More info</a>.</p>
+        </div>
+      </div>
 
-      <input type="number" id="cache-lifespan" value="10" class="my-2 w-20">
-      <select id="cache-lifespan-unit" class="ml-2">
-        <option value="hours">Hours</option>
-        <option value="minutes">Minutes</option>
-      </select>
+      <hr class="my-5">
+
+      <div class="flex">
+        <input type="checkbox" id="delay-js">
+        <div>
+          <label for="delay-js" class="font-semibold text-sm">Delay JavaScript execution</label>
+          <p class="mt-2 text-xs text-gray-500">Improves performance by delaying the loading of JavaScript files until user interaction (e.g. scroll, click). <a href="#" class="underline">More info</a>.</p>
+        </div>
+      </div>
+
     </div>
 
     <!-- Standard Button -->

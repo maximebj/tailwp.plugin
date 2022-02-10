@@ -38,7 +38,7 @@ function tailwp_register_page(): void
     'TailWP',
     'manage_options',
     'tailwp',
-    function () { include 'templates/tests.php'; },
+    function () { include 'templates/tailwp-home.php'; },
     'dashicons-superhero-alt',
     100
   );
@@ -66,11 +66,20 @@ function tailwp_register_page(): void
 
   add_submenu_page( 
     'tailwp', 
-    'Umbrella', 
-    'Umbrella', 
+    'SEOPress', 
+    'SEOPress', 
     'manage_options', 
     'tailwp-umbrella', 
-    function () { include 'templates/umbrella.php'; }
+    function () { include 'templates/seopress.php'; }
+  );
+
+  add_submenu_page( 
+    'tailwp', 
+    'WP Smush', 
+    'WP Smush', 
+    'manage_options', 
+    'tailwp-umbrella', 
+    function () { include 'templates/wpsmush.php'; }
   );
 } 
 

@@ -21,13 +21,13 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=cache" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=cache" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Cache</p>
+          <p class="uppercase font-bold">Cache</p>
           <p class="text-gray-500 font-light">Basic cache options</p>
         </div>
-        <div class="pl-4 text-orange-600">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
           </svg>
@@ -37,7 +37,7 @@
       <!-- Navigation Item -->
       <a href="admin.php?page=tailwp-wprocket&tab=file-optimization" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="uppercase font-bold">File optimization</p>
+          <p class="uppercase font-bold">File Optimization</p>
           <p class="text-gray-500 font-light">Optimize CSS & JS</p>
         </div>
         <div class="pl-4 text-gray-500 group-hover:text-orange-600">
@@ -47,13 +47,13 @@
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">Media</p>
+          <p class="text-orange-600 uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600 ">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Cache</h2>
+      <h2 class="flex-auto font-medium text-2xl">Media</h2>
       <div class="flex items-center font-semibold text-sm text-gray-500">
         <div class="mr-4">Show sidebar</div>
 
@@ -197,7 +197,7 @@
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Mobile Cache</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">LazyLoad</span>
       <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -207,25 +207,30 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Speed up your site for mobile visitors.</p>
+    <p class="text-gray-500 text-sm mt-3">It can improve actual and perceived loading time as images, iframes, and videos will be loaded only as they enter (or about to enter) the viewport and reduces the number of HTTP requests. <a href="#" class="underline">More Info</a></p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="mobile-caching">
-      <label for="mobile-caching" class="font-semibold text-sm">Enable caching for mobile devices</label>
+      <input type="checkbox" id="lazy-images">
+      <label for="lazy-images" class="font-semibold text-sm">Enable for images</label>
+
       <hr class="my-5">
-      <div class="flex pl-8">
-        <input type="checkbox" id="separate-mobile-caching">
-        <div>
-          <label for="separate-mobile-caching" class="font-semibold text-sm">Separate cache file for mobile devices</label>
-          <p class="mt-2 text-xs text-gray-500">Most modern themes are responsive and should work without a separate cache. Enable this only if you have a dedicated mobile theme or plugin. <a href="#" class="underline">More info</a></p>
-        </div>
-      </div>
+
+      <input type="checkbox" id="lazy-iframes">
+      <label for="lazy-iframes" class="font-semibold text-sm">Enable for iFrames and videos</label>
+
+      <hr class="my-5">
+
+      <label for="excluded-images" class="font-semibold text-sm">Excluded Images or iFrames</label>
+      <p class="mt-2 text-xs text-gray-500">Specify keywords (e.g. image filename, CSS class, domain) from the image or iframe code to be excluded (one per line). <a href="#">More info</a></p>
+
+      <textarea id="excluded-images" rows="4" placeholder="example-image.jpg" class="mt-2 w-full border-2 p-2 border-gray-400"></textarea>
+
     </div>
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">User Cache</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">Images dimension</span>
       <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -235,50 +240,12 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">
-      <a href="#" class="underline transition duration-200 ease-in hover:text-cyan-400">User cache</a> is great when you have user-specific or restricted content on your website.
-    </p>
+    <p class="text-gray-500 text-sm mt-3">Add missing width and height attributes to images. Helps prevent layout shifts and improve the reading experience for your visitors. <a href="#">More info</a></p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="logged-caching">
-      <label for="logged-caching" class="font-semibold text-sm">Enable caching for logged-in WordPress users</label>
-    </div>
-
-    <!-- Section Title -->
-    <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Cache Lifespan</span>
-      <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-        </svg>
-        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
-      </a>
-    </h3>
-
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">
-      Cache files older than the specified lifespan will be deleted. <br>
-      Enable <a href="#" class="underline transition duration-200 ease-in hover:text-cyan-400">preloading</a> for the cache to be rebuilt automatically after lifespan expiration.
-    </p>
-
-    <!-- Field Container -->
-    <div class="bg-gray-50 border rounded mt-4 p-4">
-      <label for="cache-lifespan" class="font-semibold text-sm">
-        Specify time after which the global cache is cleared <br>
-        (0 = unlimited )
-      </label>
-
-      <p class="text-green-600 text-xs my-2">
-        Reduce lifespan to 10 hours or less if you notice issues that seem to appear periodically. 
-        <a href="#">Why?</a>
-      </p>
-
-      <input type="number" id="cache-lifespan" value="10" class="my-2 w-20">
-      <select id="cache-lifespan-unit" class="ml-2">
-        <option value="hours">Hours</option>
-        <option value="minutes">Minutes</option>
-      </select>
+      <input type="checkbox" id="missing-dimension">
+      <label for="missing-dimension" class="font-semibold text-sm">Add missing images dimensions</label>
     </div>
 
     <!-- Standard Button -->

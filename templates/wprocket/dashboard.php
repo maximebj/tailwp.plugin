@@ -9,7 +9,7 @@
     <nav class="flex-auto">
 
       <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=dashboard" class="flex iitems px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
+      <a href="admin.php?page=tailwp-wprocket&tab=dashboard" class="flex px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
           <p class="text-orange-600 uppercase font-bold">Dashboard</p>
           <p class="text-gray-500 font-light">Get help, account info</p>
@@ -50,7 +50,7 @@
       <!-- Navigation Item -->
       <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="uppercase font-bold">Média</p>
+          <p class="uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
         <div class="pl-4 text-gray-500 group-hover:text-orange-600">
