@@ -184,13 +184,13 @@
         </svg>
       </div>
       <h2 class="flex-auto font-medium text-2xl">Cache</h2>
-      <div class="flex items-center font-semibold text-sm text-gray-500">
-        <div class="mr-4">Show sidebar</div>
+      <div class="flex items-center">
+        <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
         <!-- Toggle -->
         <div class="toggle-checkbox inline-block w-12 select-none">
-          <input type="checkbox" name="analytics" id="analytics" checked>
-          <label for="analytics" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
+          <input type="checkbox" id="sidebar" checked>
+          <label for="sidebar" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
         </div>
       </div>
     </div>
@@ -213,12 +213,12 @@
     <div class="bg-gray-50 border rounded mt-4 p-4">
       <input type="checkbox" id="mobile-caching">
       <label for="mobile-caching" class="font-semibold text-sm">Enable caching for mobile devices</label>
-      <hr class="my-5">
+      <hr class="my-4">
       <div class="flex pl-8">
         <input type="checkbox" id="separate-mobile-caching">
         <div>
           <label for="separate-mobile-caching" class="font-semibold text-sm">Separate cache file for mobile devices</label>
-          <p class="mt-2 text-xs text-gray-500">Most modern themes are responsive and should work without a separate cache. Enable this only if you have a dedicated mobile theme or plugin. <a href="#" class="underline">More info</a></p>
+          <p class="mt-2 text-gray-500">Most modern themes are responsive and should work without a separate cache. Enable this only if you have a dedicated mobile theme or plugin. <a href="#" class="underline">More info</a></p>
         </div>
       </div>
     </div>
@@ -269,7 +269,7 @@
         (0 = unlimited )
       </label>
 
-      <p class="text-green-600 text-xs my-2">
+      <p class="text-green-600 my-2">
         Reduce lifespan to 10 hours or less if you notice issues that seem to appear periodically. 
         <a href="#">Why?</a>
       </p>
@@ -282,7 +282,7 @@
     </div>
 
     <!-- Standard Button -->
-    <a href="#" class="inline-block mt-6 py-2 px-6 max-w-[160px] bg-orange-600 text-white rounded uppercase shadow center font-semibold">
+    <a href="#" class="inline-block mt-6 py-2 px-6 bg-orange-600 text-white rounded uppercase shadow center font-semibold">
       Save Changes
     </a>
 

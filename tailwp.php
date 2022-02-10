@@ -66,11 +66,11 @@ function tailwp_register_page(): void
 
   add_submenu_page( 
     'tailwp', 
-    'SEOPress', 
-    'SEOPress', 
+    'WP GridBuilder', 
+    'WP GridBuilder', 
     'manage_options', 
     'tailwp-umbrella', 
-    function () { include 'templates/seopress.php'; }
+    function () { include 'templates/wp-gridbuilder.php'; }
   );
 
   add_submenu_page( 

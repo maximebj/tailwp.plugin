@@ -47,13 +47,13 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=media" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Media</p>
+          <p class="uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
-        <div class="pl-4 text-orange-600 ">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
@@ -152,13 +152,13 @@
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=tutorials" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=tutorials" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">Tutorials</p>
+          <p class="text-orange-600 uppercase font-bold">Tutorials</p>
           <p class="text-gray-500 font-light">Getting started and how to videos</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Media</h2>
+      <h2 class="flex-auto font-medium text-2xl">Tutorials</h2>
       <div class="flex items-center">
         <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
@@ -196,62 +196,144 @@
     </div>
 
     <!-- Section Title -->
-    <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">LazyLoad</span>
-      <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-        </svg>
-        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
-      </a>
-    </h3>
-
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">It can improve actual and perceived loading time as images, iframes, and videos will be loaded only as they enter (or about to enter) the viewport and reduces the number of HTTP requests. <a href="#" class="underline">More Info</a></p>
-
-    <!-- Field Container -->
-    <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="lazy-images">
-      <label for="lazy-images" class="font-semibold text-sm">Enable for images</label>
-
-      <hr class="my-4">
-
-      <input type="checkbox" id="lazy-iframes">
-      <label for="lazy-iframes" class="font-semibold text-sm">Enable for iFrames and videos</label>
-
-      <hr class="my-4">
-
-      <label for="excluded-images" class="font-semibold text-sm">Excluded Images or iFrames</label>
-      <p class="mt-2 text-gray-500">Specify keywords (e.g. image filename, CSS class, domain) from the image or iframe code to be excluded (one per line). <a href="#">More info</a></p>
-
-      <textarea id="excluded-images" rows="4" placeholder="example-image.jpg" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
-
+    <h3 class="mt-12 pb-2 border-b text-base flex-auto font-semibold text-orange-600">Getting Started</h3>
+    
+    <!-- Video Gallery -->
+    <div class="my-4 grid grid-cols-3 gap-4">
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Getting Started with WP Rocket</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Finding the Best Settings for Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How to Check if WP Rocket is Caching Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How to Measure the Speed of Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How Preloading Works</p>
+      </div>
     </div>
 
     <!-- Section Title -->
-    <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Images dimension</span>
-      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-        </svg>
-        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
-      </a>
-    </h3>
+    <h3 class="mt-12 pb-2 border-b text-base flex-auto font-semibold text-orange-600">Passing the Core Web vitals</h3>
 
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Add missing width and height attributes to images. Helps prevent layout shifts and improve the reading experience for your visitors. <a href="#">More info</a></p>
-
-    <!-- Field Container -->
-    <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="missing-dimension">
-      <label for="missing-dimension" class="font-semibold text-sm">Add missing images dimensions</label>
+    <!-- Video Gallery -->
+    <div class="my-4 grid grid-cols-3 gap-4">
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Getting Started with WP Rocket</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Finding the Best Settings for Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How to Check if WP Rocket is Caching Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How to Measure the Speed of Your Site</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How Preloading Works</p>
+      </div>
     </div>
 
-    <!-- Standard Button -->
-    <a href="#" class="inline-block mt-6 py-2 px-6 bg-orange-600 text-white rounded uppercase shadow center font-semibold">
-      Save Changes
-    </a>
+    <!-- Section Title -->
+    <h3 class="mt-12 pb-2 border-b text-base flex-auto font-semibold text-orange-600">Troubleshooting</h3>
+
+    <!-- Video Gallery -->
+    <div class="my-4 grid grid-cols-3 gap-4">
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Troubleshooting Display Issues with File Optimization</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How to Find the Right JavaScript to Exclude</p>
+      </div>
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">How External Content Slows Your Site</p>
+      </div>
+    </div>
+
+    <!-- Section Title -->
+    <h3 class="mt-12 pb-2 border-b text-base flex-auto font-semibold text-orange-600">Add-ons</h3>
+
+    <!-- Video Gallery -->
+    <div class="my-4 grid grid-cols-3 gap-4">
+      <div>
+        <div class="flex justify-center items-center bg-blue-900 h-40">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white opacity-40" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd" />
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mt-1">Set Up the Cloudflare Add-on</p>
+      </div>
+    </div>
 
   </div>
 

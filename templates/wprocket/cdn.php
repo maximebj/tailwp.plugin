@@ -47,13 +47,13 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=media" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Media</p>
+          <p class="uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
-        <div class="pl-4 text-orange-600 ">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
@@ -99,13 +99,13 @@
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=cdn" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=cdn" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">CDN</p>
+          <p class="text-orange-600 uppercase font-bold">CDN</p>
           <p class="text-gray-500 font-light">Integrate your CDN</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Media</h2>
+      <h2 class="flex-auto font-medium text-2xl">CDN</h2>
       <div class="flex items-center">
         <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
@@ -197,40 +197,7 @@
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">LazyLoad</span>
-      <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
-        </svg>
-        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
-      </a>
-    </h3>
-
-    <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">It can improve actual and perceived loading time as images, iframes, and videos will be loaded only as they enter (or about to enter) the viewport and reduces the number of HTTP requests. <a href="#" class="underline">More Info</a></p>
-
-    <!-- Field Container -->
-    <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="lazy-images">
-      <label for="lazy-images" class="font-semibold text-sm">Enable for images</label>
-
-      <hr class="my-4">
-
-      <input type="checkbox" id="lazy-iframes">
-      <label for="lazy-iframes" class="font-semibold text-sm">Enable for iFrames and videos</label>
-
-      <hr class="my-4">
-
-      <label for="excluded-images" class="font-semibold text-sm">Excluded Images or iFrames</label>
-      <p class="mt-2 text-gray-500">Specify keywords (e.g. image filename, CSS class, domain) from the image or iframe code to be excluded (one per line). <a href="#">More info</a></p>
-
-      <textarea id="excluded-images" rows="4" placeholder="example-image.jpg" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
-
-    </div>
-
-    <!-- Section Title -->
-    <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Images dimension</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">CDN</span>
       <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -240,13 +207,67 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Add missing width and height attributes to images. Helps prevent layout shifts and improve the reading experience for your visitors. <a href="#">More info</a></p>
+    <p class="text-gray-500 text-sm mt-3">
+      All URLs of static files (CSS, JS, images) will be rewritten to the CNAME(s) you provide.<br>
+      Not required for services like Cloudflare and Sucuri. Please see our available <a href="#" class="underline">Add-ons</a>.
+    </p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="missing-dimension">
-      <label for="missing-dimension" class="font-semibold text-sm">Add missing images dimensions</label>
+      <input type="checkbox" id="automatic-cleanup">
+      <label for="automatic-cleanup" class="font-semibold text-sm">Enable Content Delivery Network</label>
     </div>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <label for="cdn-cnames" class="font-semibold text-sm">CDN CNAME(s)</label>
+      <p class="mt-2 text-gray-500">Specify the CNAME(s) below</p>
+
+      <div class="mt-2 flex items-center">
+        <input type="text" id="cdn-cnames" placeholder="cdn.example.com" class="flex-3 w-full border-2 p-2 border-gray-400 text-sm">
+        <div class="mx-3 font-semibold text-sm">reserved for</div>
+        <select id="files">
+          <option value="all">All files</option>
+          <option value="images">Images</option>
+          <option value="css-js">CSS & JavaScript</option>
+          <option value="css">CSS</option>
+          <option value="js">JavaScript</option>
+        </select>
+      </div>
+      
+      <!-- Icon Button -->
+      <a href="#" class="inline-flex items-center my-2 p-2 bg-indigo-900 text-white rounded uppercase shadow">
+        <p class="flex-auto text-xs">Add Cname</p>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4" />
+        </svg>
+      </a>
+
+    </div>
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Exclude files from CDN</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <p class="mt-2 text-gray-500">Specify URL(s) of files that should not get served via CDN (one per line).</p>
+
+      <textarea id="exclude-files-cdn" rows="4" placeholder="/wp-content/plugins/some-plugin/(.*).css" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
+
+      <p class="mt-2 text-emerald-500">
+        The domain part of the URL will be stripped automatically.<br>
+        Use (.*) wildcards to exclude all files of a given file type located at a specific path.
+      </p>
+    </div>
+
 
     <!-- Standard Button -->
     <a href="#" class="inline-block mt-6 py-2 px-6 bg-orange-600 text-white rounded uppercase shadow center font-semibold">

@@ -47,26 +47,26 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=media" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Media</p>
+          <p class="uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
-        <div class="pl-4 text-orange-600 ">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=preload" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=preload" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">Preload</p>
+          <p class="text-orange-600 uppercase font-bold">Preload</p>
           <p class="text-gray-500 font-light">Generate cache files, preload font</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Media</h2>
+      <h2 class="flex-auto font-medium text-2xl">Preload</h2>
       <div class="flex items-center">
         <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
@@ -197,7 +197,7 @@
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">LazyLoad</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">Preload Cache</span>
       <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -207,30 +207,22 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">It can improve actual and perceived loading time as images, iframes, and videos will be loaded only as they enter (or about to enter) the viewport and reduces the number of HTTP requests. <a href="#" class="underline">More Info</a></p>
+    <p class="text-gray-500 text-sm mt-3">When you enable preloading WP Rocket will generate the cache starting with the links on your homepage followed by the sitemaps you specify. Preloading is automatically triggered when you add or update content and can also be manually triggered from the admin bar or from the  <a href="#" class="underline">WP Rocket Dashboard</a></p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="lazy-images">
-      <label for="lazy-images" class="font-semibold text-sm">Enable for images</label>
-
+      <input type="checkbox" id="preload">
+      <label for="preload" class="font-semibold text-sm">Activate Preloading</label>
       <hr class="my-4">
-
-      <input type="checkbox" id="lazy-iframes">
-      <label for="lazy-iframes" class="font-semibold text-sm">Enable for iFrames and videos</label>
-
-      <hr class="my-4">
-
-      <label for="excluded-images" class="font-semibold text-sm">Excluded Images or iFrames</label>
-      <p class="mt-2 text-gray-500">Specify keywords (e.g. image filename, CSS class, domain) from the image or iframe code to be excluded (one per line). <a href="#">More info</a></p>
-
-      <textarea id="excluded-images" rows="4" placeholder="example-image.jpg" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
-
+      <div class="pl-8">
+        <input type="checkbox" id="sitemap-preload">
+        <label for="sitemap-preload" class="font-semibold text-sm">Activate SiteMap-based cache preloading</label>
+      </div>
     </div>
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Images dimension</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">Preload links</span>
       <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -240,12 +232,63 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Add missing width and height attributes to images. Helps prevent layout shifts and improve the reading experience for your visitors. <a href="#">More info</a></p>
+    <p class="text-gray-500 text-sm mt-3">Link preloading improves the perceived load time by downloading a page when a user hovers over the link. <a href="#">More info</a></p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
       <input type="checkbox" id="missing-dimension">
-      <label for="missing-dimension" class="font-semibold text-sm">Add missing images dimensions</label>
+      <label for="missing-dimension" class="font-semibold text-sm">Enable links preloading</label>
+    </div>
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Prefetch DNS requests</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Description -->
+    <p class="text-gray-500 text-sm mt-3">DNS prefetching can make external files load faster, especially on mobile networks.</p>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <label for="prefetch-urls" class="font-semibold text-sm">URLs to prefetch</label>
+      <p class="mt-2 text-gray-500">Specify external hosts to be prefetched (no <code>http:</code>, one per line)</p>
+
+      <textarea id="prefetch-urls" rows="4" placeholder="//example.com" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
+
+    </div>
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Preload Fonts</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Description -->
+    <p class="text-gray-500 text-sm mt-3">Improves performance by helping browsers discover fonts in CSS files. <a href="#" class="underline">More info</a></p>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <label for="excluded-images" class="font-semibold text-sm">Fonts to preload</label>
+      <p class="mt-2 text-gray-500">Specify urls of the font files to be preloaded (one per line). Fonts must be hosted on your own domain, or the domain you have specified on the CDN tab.</p>
+
+      <textarea id="excluded-images" rows="4" placeholder="/wp-content/themes/your-theme/assets/fonts/font-file.woff" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
+
+      <p class="mt-2 text-emerald-500">
+        The domain part of the URL will be stripped automatically.<br>
+        Allowed font extensions: otf, ttf, svg, woff, woff2.
+      </p>
+
     </div>
 
     <!-- Standard Button -->
@@ -288,7 +331,7 @@
         </div>
         <p class="text-gray-900 text-sm">You have not activated logged-in user cache.</p>
       </div>
-      <p class="mt-2 text-xs text-gray-500">Use a private browser to check your website's speed and visual appearance.</p>
+      <p class="mt-2 text-sm text-gray-500">Use a private browser to check your website's speed and visual appearance.</p>
     </div>
     
     <!-- Documentation -->

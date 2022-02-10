@@ -237,9 +237,10 @@
             </p>
           </div>
           <div>
-            <a href="#" class="flex items-center my-2 p-2 min-w-[180px] bg-indigo-900 text-white rounded uppercase shadow">
+            <!-- Icon Button -->
+            <a href="#" class="inline-flex items-center my-2 p-2 bg-indigo-900 text-white rounded uppercase shadow">
               <p class="flex-auto text-xs">View my account</p>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 20 20" fill="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-4" viewBox="0 0 20 20" fill="currentColor">
                 <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
               </svg>
             </a>
@@ -264,7 +265,7 @@
             
             <!-- Toggle -->
             <div class="toggle-checkbox inline-block w-12 select-none">
-              <input type="checkbox" name="analytics" id="analytics">
+              <input type="checkbox" id="analytics">
               <label for="analytics" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
             </div>
           
@@ -295,7 +296,7 @@
             </svg>
           </a>
 
-          <hr class="my-5">
+          <hr class="my-4">
 
           <h4 class="font-bold">Start cache preloading</h4>
 
@@ -307,7 +308,7 @@
             </svg>
           </a>
 
-          <hr class="my-5">
+          <hr class="my-4">
 
           <h4 class="font-bold">Purge OPCache content</h4>
 
@@ -411,9 +412,10 @@
               <p class="text-gray-500 mt-1">Submit a ticket and get help from our friendly and knowledgeable Rocketeers.</p>
             </div>
             <div class="flex-1 text-right">
-              <a href="#" class="inline-flex items-center text-left p-2 min-w-[160px] bg-cyan-500 text-white rounded uppercase shadow">
+              <!-- Icon Button -->
+              <a href="#" class="inline-flex items-center text-left p-2 bg-cyan-500 text-white rounded uppercase shadow">
                 <p class="flex-auto text-xs">Ask Support</p>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
               </a>

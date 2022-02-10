@@ -47,13 +47,13 @@
         </div>
       </a>
 
-      <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=media" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
+      <!-- Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=media" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
         <div class="flex-auto">
-          <p class="text-orange-600 uppercase font-bold">Media</p>
+          <p class="uppercase font-bold">Media</p>
           <p class="text-gray-500 font-light">LazyLoad, images dimension</p>
         </div>
-        <div class="pl-4 text-orange-600 ">
+        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
           </svg>
@@ -86,13 +86,13 @@
         </div>
       </a>
 
-      <!-- Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=database" class="group flex items-center px-5 py-4 border-b hover:bg-white border-l-transparent border-l-2 hover:border-l-orange-600 hover:text-orange-600">
+      <!-- Active Navigation Item -->
+      <a href="admin.php?page=tailwp-wprocket&tab=database" class="flex px-5 py-4 border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
-          <p class="uppercase font-bold">Database</p>
+          <p class="text-orange-600 uppercase font-bold">Database</p>
           <p class="text-gray-500 font-light">Optimize, reduce bloat</p>
         </div>
-        <div class="pl-4 text-gray-500 group-hover:text-orange-600">
+        <div class="pl-4 text-orange-600">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
           </svg>
@@ -180,10 +180,10 @@
     <div class="flex relative items-center pb-6 border-b after:w-12 after:content-empty after:block after:absolute after:-bottom-[1px] after:border-b-2 after:border-b-orange-600">
       <div class="text-orange-400 bg-red-100 p-2 mr-6 rounded">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4" />
         </svg>
       </div>
-      <h2 class="flex-auto font-medium text-2xl">Media</h2>
+      <h2 class="flex-auto font-medium text-2xl">Database</h2>
       <div class="flex items-center">
         <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
@@ -197,7 +197,7 @@
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">LazyLoad</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">Posts Cleanup</span>
       <a href="#" class="group flex items-center text-cyan-500 pr-2 hover:text-orange-600">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -207,30 +207,43 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">It can improve actual and perceived loading time as images, iframes, and videos will be loaded only as they enter (or about to enter) the viewport and reduces the number of HTTP requests. <a href="#" class="underline">More Info</a></p>
+    <p class="text-gray-500 text-sm mt-3">Post revisions and drafts will be permanently deleted. Do not use this option if you need to retain revisions or drafts.</p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="lazy-images">
-      <label for="lazy-images" class="font-semibold text-sm">Enable for images</label>
+      <div class="flex">
+        <input type="checkbox" id="clean-revisions">
+        <div>
+          <label for="clean-revisions" class="font-semibold text-sm">Revisions</label>
+          <p class="mt-2 text-gray-500">3 revisions in your database.</p>
+        </div>
+      </div>
 
       <hr class="my-4">
 
-      <input type="checkbox" id="lazy-iframes">
-      <label for="lazy-iframes" class="font-semibold text-sm">Enable for iFrames and videos</label>
+      <div class="flex">
+        <input type="checkbox" id="clean-auto-drafts">
+        <div>
+          <label for="clean-auto-drafts" class="font-semibold text-sm">Auto drafts</label>
+          <p class="mt-2 text-gray-500">8 drafts in your database.</p>
+        </div>
+      </div>
 
       <hr class="my-4">
 
-      <label for="excluded-images" class="font-semibold text-sm">Excluded Images or iFrames</label>
-      <p class="mt-2 text-gray-500">Specify keywords (e.g. image filename, CSS class, domain) from the image or iframe code to be excluded (one per line). <a href="#">More info</a></p>
-
-      <textarea id="excluded-images" rows="4" placeholder="example-image.jpg" class="mt-2 w-full border-2 p-2 border-gray-400 text-sm"></textarea>
+      <div class="flex">
+        <input type="checkbox" id="clean-trashed-posts">
+        <div>
+          <label for="clean-trashed-posts" class="font-semibold text-sm">Trashed posts</label>
+          <p class="mt-2 text-gray-500">7 trashed posts in your database.</p>
+        </div>
+      </div>
 
     </div>
 
     <!-- Section Title -->
     <h3 class="flex mt-12 pb-2 border-b">
-      <span class="text-base flex-auto font-semibold text-orange-600">Images dimension</span>
+      <span class="text-base flex-auto font-semibold text-orange-600">Comments cleanup</span>
       <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -240,17 +253,110 @@
     </h3>
 
     <!-- Description -->
-    <p class="text-gray-500 text-sm mt-3">Add missing width and height attributes to images. Helps prevent layout shifts and improve the reading experience for your visitors. <a href="#">More info</a></p>
+    <p class="text-gray-500 text-sm mt-3">Spam and trashed comments will be permanently deleted.</p>
 
     <!-- Field Container -->
     <div class="bg-gray-50 border rounded mt-4 p-4">
-      <input type="checkbox" id="missing-dimension">
-      <label for="missing-dimension" class="font-semibold text-sm">Add missing images dimensions</label>
+      <div class="flex">
+        <input type="checkbox" id="clean-spams-comments">
+        <div>
+          <label for="clean-spams-comments" class="font-semibold text-sm">Spam comments</label>
+          <p class="mt-2 text-gray-500">18 spam comments in your database.</p>
+        </div>
+      </div>
+
+      <hr class="my-4">
+
+      <div class="flex">
+        <input type="checkbox" id="combine-js">
+        <div>
+          <label for="combine-js" class="font-semibold text-sm">Trashed comments</label>
+          <p class="mt-2 text-gray-500">0 trashed comments in your database.</p>
+        </div>
+      </div>
+
     </div>
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Transients cleanup</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Description -->
+    <p class="text-gray-500 text-sm mt-3">Transients are temporary options; they are safe to remove. They will be automatically regenerated as your plugins require them.</p>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <div class="flex">
+        <input type="checkbox" id="clean-transients">
+        <div>
+          <label for="clean-transients" class="font-semibold text-sm">All transients</label>
+          <p class="mt-2 text-gray-500">21 transients in your database.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Database cleanup</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Description -->
+    <p class="text-gray-500 text-sm mt-3">Reduces overhead of database tables.</p>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <div class="flex">
+        <input type="checkbox" id="optimize-tables">
+        <div>
+          <label for="optimize-tables" class="font-semibold text-sm">Optimize tables</label>
+          <p class="mt-2 text-gray-500">2 tables to optimize in your database.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section Title -->
+    <h3 class="flex mt-12 pb-2 border-b">
+      <span class="text-base flex-auto font-semibold text-orange-600">Automatic cleanup</span>
+      <a href="#" class="group flex items-center text-cyan-500 hover:text-orange-600 pr-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
+        </svg>
+        <span class="text-cyan-700 group-hover:text-orange-600 uppercase font-semibold text-xs leading-normal">Need Help?</span>
+      </a>
+    </h3>
+
+    <!-- Field Container -->
+    <div class="bg-gray-50 border rounded mt-4 p-4">
+      <input type="checkbox" id="automatic-cleanup">
+      <label for="automatic-cleanup" class="font-semibold text-sm">Schedule Automatic Cleanup</label>
+    </div>
+
+    <!-- Red Alert Message -->
+    <p class="font-semibold text-sm mt-4 text-red-500">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 inline" viewBox="0 0 20 20" fill="currentColor">
+        <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7 4a1 1 0 11-2 0 1 1 0 012 0zm-1-9a1 1 0 00-1 1v4a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd"></path>
+      </svg>
+      Backup your database before you run a cleanup!
+    </p>
+    <p class="text-sm mt-4 text-red-500">Once a database optimization has been performed, there is no way to undo it.</p>
 
     <!-- Standard Button -->
     <a href="#" class="inline-block mt-6 py-2 px-6 bg-orange-600 text-white rounded uppercase shadow center font-semibold">
-      Save Changes
+      Save Changes And Optimize
     </a>
 
   </div>

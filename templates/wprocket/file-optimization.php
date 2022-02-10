@@ -184,13 +184,13 @@
         </svg>
       </div>
       <h2 class="flex-auto font-medium text-2xl">File Optimization</h2>
-      <div class="flex items-center font-semibold text-sm text-gray-500">
-        <div class="mr-4">Show sidebar</div>
+      <div class="flex items-center">
+        <label for="sidebar" class="mr-4 font-semibold text-sm text-gray-500">Show sidebar</label>
 
         <!-- Toggle -->
         <div class="toggle-checkbox inline-block w-12 select-none">
-          <input type="checkbox" name="analytics" id="analytics" checked>
-          <label for="analytics" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
+          <input type="checkbox" id="sidebar" checked>
+          <label for="sidebar" class="block overflow-hidden h-6 rounded-full bg-gray-300 cursor-pointer after:block after:w-6 after:h-6 after:rounded-full after:bg-white after:border-4 after:border-gray-300 after:transition after:duration-200 after:ease-in"></label>
         </div>
       </div>
     </div>
@@ -212,27 +212,27 @@
         <input type="checkbox" id="minify-css">
         <div>
           <label for="minify-css" class="font-semibold text-sm">Minify CSS files</label>
-          <p class="mt-2 text-xs text-gray-500">Minify CSS removes whitespace and comments to reduce the file size.</p>
+          <p class="mt-2 text-gray-500">Minify CSS removes whitespace and comments to reduce the file size.</p>
         </div>
       </div>
 
-      <hr class="my-5">
+      <hr class="my-4">
 
       <div class="flex opacity-70">
         <input type="checkbox" id="combine-css">
         <div>
           <label for="combine-css" class="font-semibold text-sm">Combine CSS files</label>
-          <p class="mt-2 text-xs text-gray-500">Combine CSS merges all your files into 1, reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
+          <p class="mt-2 text-gray-500">Combine CSS merges all your files into 1, reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
         </div>
       </div>
 
-      <hr class="my-5">
+      <hr class="my-4">
 
       <div class="flex">
         <input type="checkbox" id="optimize-css">
         <div>
           <label for="optimize-css" class="font-semibold text-sm">Optimize CSS delivery</label>
-          <p class="mt-2 text-xs text-gray-500">Optimize CSS delivery eliminates render-blocking CSS on your website. Only one method can be selected. Remove Unused CSS is recommended for optimal performance.</p>
+          <p class="mt-2 text-gray-500">Optimize CSS delivery eliminates render-blocking CSS on your website. Only one method can be selected. Remove Unused CSS is recommended for optimal performance.</p>
         </div>
       </div>
 
@@ -255,44 +255,44 @@
         <input type="checkbox" id="minify-js">
         <div>
           <label for="minify-js" class="font-semibold text-sm">Minify JavaScript files</label>
-          <p class="mt-2 text-xs text-gray-500">Minify JavaScript removes whitespace and comments to reduce the file size.</p>
+          <p class="mt-2 text-gray-500">Minify JavaScript removes whitespace and comments to reduce the file size.</p>
         </div>
       </div>
 
-      <hr class="my-5">
+      <hr class="my-4">
 
       <div class="flex opacity-70">
         <input type="checkbox" id="combine-js">
         <div>
           <label for="combine-js" class="font-semibold text-sm">Combine JavaScript files</label>
-          <p class="mt-2 text-xs text-gray-500">Combine JavaScript files combines your site’s internal, 3rd party and inline JS reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
+          <p class="mt-2 text-gray-500">Combine JavaScript files combines your site’s internal, 3rd party and inline JS reducing HTTP requests. Not recommended if your site uses HTTP/2. <a href="#" class="underline">More info</a>.</p>
         </div>
       </div>
 
-      <hr class="my-5">
+      <hr class="my-4">
 
       <div class="flex">
         <input type="checkbox" id="defer-js">
         <div>
           <label for="defer-js" class="font-semibold text-sm">Load JavaScript defered</label>
-          <p class="mt-2 text-xs text-gray-500">Load JavaScript deferred eliminates render-blocking JS on your site and can improve load time. <a href="#" class="underline">More info</a>.</p>
+          <p class="mt-2 text-gray-500">Load JavaScript deferred eliminates render-blocking JS on your site and can improve load time. <a href="#" class="underline">More info</a>.</p>
         </div>
       </div>
 
-      <hr class="my-5">
+      <hr class="my-4">
 
       <div class="flex">
         <input type="checkbox" id="delay-js">
         <div>
           <label for="delay-js" class="font-semibold text-sm">Delay JavaScript execution</label>
-          <p class="mt-2 text-xs text-gray-500">Improves performance by delaying the loading of JavaScript files until user interaction (e.g. scroll, click). <a href="#" class="underline">More info</a>.</p>
+          <p class="mt-2 text-gray-500">Improves performance by delaying the loading of JavaScript files until user interaction (e.g. scroll, click). <a href="#" class="underline">More info</a>.</p>
         </div>
       </div>
 
     </div>
 
     <!-- Standard Button -->
-    <a href="#" class="inline-block mt-6 py-2 px-6 max-w-[160px] bg-orange-600 text-white rounded uppercase shadow center font-semibold">
+    <a href="#" class="inline-block mt-6 py-2 px-6 bg-orange-600 text-white rounded uppercase shadow center font-semibold">
       Save Changes
     </a>
 

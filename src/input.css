@@ -24,11 +24,15 @@ input[type=checkbox] {
 }
 
 input[type=text], 
-input[type=number],
-.wp-core-ui select {
-  @apply bg-gray-100 border-gray-300 px-2 py-2 font-semibold text-sm;
+input[type=number] {
+  @apply  border-gray-300 border-2 px-2 py-2 font-semibold text-sm;
 }
 
 .wp-core-ui select {
-  @apply translate-y-[-1px]
+  @apply bg-gray-100 border-gray-300 px-2 py-2 font-semibold text-sm translate-y-[-1px] pr-6
+}
+
+input[type=file] {
+  @apply p-4 border;
+  padding: .5em !important;
 }
