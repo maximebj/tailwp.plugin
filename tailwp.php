@@ -69,7 +69,7 @@ function tailwp_register_page(): void
     'WP GridBuilder', 
     'WP GridBuilder', 
     'manage_options', 
-    'tailwp-umbrella', 
+    'tailwp-gridbuilder', 
     function () { include 'templates/wp-gridbuilder.php'; }
   );
 
@@ -78,7 +78,7 @@ function tailwp_register_page(): void
     'WP Smush', 
     'WP Smush', 
     'manage_options', 
-    'tailwp-umbrella', 
+    'tailwp-smush', 
     function () { include 'templates/wpsmush.php'; }
   );
 } 

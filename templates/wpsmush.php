@@ -1,1 +1,1 @@
-wp smush
+wpsmush
