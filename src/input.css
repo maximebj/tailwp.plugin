@@ -2,37 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Remove padding left in WP admin */ 
 #wpcontent {
   @apply pl-0;
 }
 
-.toggle-checkbox input {
+/* Special styles for WP Rocket */
+/* This selector body[class*="tailwp-wprocket"] */
+body[class*="tailwp-wprocket"] .toggle-checkbox input {
   display: none !important;
 }
 
-.toggle-checkbox input:checked + label {
+body[class*="tailwp-wprocket"] .toggle-checkbox input:checked + label {
   @apply bg-green-400;
 }
 
-.toggle-checkbox input:checked + label:after {
+body[class*="tailwp-wprocket"] .toggle-checkbox input:checked + label:after {
   @apply translate-x-full border-green-400;
 }
 
-input[type=checkbox] {
+body[class*="tailwp-wprocket"] input[type=checkbox] {
   @apply m-0 mr-3;
 }
 
-input[type=text], 
-input[type=number] {
+body[class*="tailwp-wprocket"] input[type=text], 
+body[class*="tailwp-wprocket"] input[type=number] {
   @apply  border-gray-300 border-2 px-2 py-2 font-semibold text-sm;
 }
 
-.wp-core-ui select {
+body[class*="tailwp-wprocket"].wp-core-ui select {
   @apply bg-gray-100 border-gray-300 px-2 py-2 font-semibold text-sm translate-y-[-1px] pr-6
 }
 
-input[type=file] {
+body[class*="tailwp-wprocket"] input[type=file] {
   @apply p-4 border;
   padding: .5em !important;
+}
+
+
+/* Special styles for WP GridBuilder */
+body[class*="tailwp-gridbuilder"] {
+  @apply bg-slate-100;
+}
+
+body[class*="tailwp-gridbuilder"].wp-core-ui select {
+  @apply border-none p-2 pr-6 bg-slate-100 uppercase font-semibold text-gray-500;
 }
