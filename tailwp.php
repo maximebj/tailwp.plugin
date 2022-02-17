@@ -70,7 +70,10 @@ function tailwp_register_page(): void
     'WP GridBuilder', 
     'manage_options', 
     'tailwp-gridbuilder', 
-    function () { include 'templates/wp-gridbuilder.php'; }
+    function () { 
+      $tab = isset( $_GET['tab'] ) ? $_GET['tab'] : 'dashboard';
+      include "templates/gridbuilder/$tab.php"; 
+    }
   );
 
   add_submenu_page( 

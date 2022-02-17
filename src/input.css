@@ -7,6 +7,10 @@
   @apply pl-0;
 }
 
+li {
+ @apply mb-0;
+}
+
 /* Special styles for WP Rocket */
 /* This selector body[class*="tailwp-wprocket"] */
 body[class*="tailwp-wprocket"] .toggle-checkbox input {
@@ -46,5 +50,9 @@ body[class*="tailwp-gridbuilder"] {
 }
 
 body[class*="tailwp-gridbuilder"].wp-core-ui select {
-  @apply border-none p-2 pr-6 bg-slate-100 uppercase font-semibold text-gray-500;
+  @apply border-none py-1 px-2 pr-10 bg-slate-100 uppercase font-semibold text-gray-500;
+}
+
+body[class*="tailwp-gridbuilder"] input[type=text] {
+  @apply uppercase border-none bg-slate-200 font-semibold text-gray-500;
 }
