@@ -68,8 +68,8 @@
   <!-- Panel -->
   <div class="bg-white p-14 shadow-md rounded-md">
     
-    <!-- Panel Title -->
-    <div class="flex pb-4">
+    <!-- Panel Title With Button -->
+    <div class="flex mb-4">
       <h2 class="text-2xl tracking-wide font-bold">All Grids</h2>
       
       <!-- Icon Button -->

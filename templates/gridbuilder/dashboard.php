@@ -68,8 +68,8 @@
   <!-- Panel -->
   <div class="bg-white p-14 mb-12 shadow-md rounded-md">
     
-    <!-- Panel Title -->
-    <div class="flex pb-4">
+    <!-- Panel Title With Button -->
+    <div class="flex mb-4">
       <h2 class="text-2xl tracking-wide font-bold">Plugin Licence</h2>
       
       <!-- Icon Button -->
@@ -160,7 +160,7 @@
   <div class="bg-white p-14 mb-12 shadow-md rounded-md">
     
     <!-- Panel Title -->
-    <h2 class="text-2xl tracking-wide font-bold pb-4">Export Content</h2>
+    <h2 class="text-2xl tracking-wide font-bold mb-4">Export Content</h2>
     
     <p class="text-gray-500 text-sm mb-12">
       Export your grids, cards, facets, or settings for this site as a .json file. <br>
@@ -192,7 +192,7 @@
   <div class="bg-white p-14 mb-12 shadow-md rounded-md">
     
     <!-- Panel Title -->
-    <h2 class="text-2xl tracking-wide font-bold pb-4">Import Content</h2>
+    <h2 class="text-2xl tracking-wide font-bold mb-4">Import Content</h2>
     
     <p class="text-gray-500 text-sm mb-12">
       Import your grids, cards, facets or settings from a .json file. <br>
@@ -230,7 +230,7 @@
   <div class="bg-white p-14 mb-12 shadow-md rounded-md">
     
     <!-- Panel Title -->
-    <h2 class="text-2xl tracking-wide font-bold pb-4">System Status</h2>
+    <h2 class="text-2xl tracking-wide font-bold mb-4">System Status</h2>
     
     <p class="text-gray-500 text-sm mb-12">
       The System Status report can be useful for troubleshooting issues with your site. <br>

@@ -9,7 +9,7 @@
     <nav class="flex-auto">
 
       <!-- Active Navigation Item -->
-      <a href="admin.php?page=tailwp-wprocket&tab=dashboard" class="flex px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
+      <a href="admin.php?page=tailwp-wprocket&tab=dashboard" class="flex items-center px-5 py-4 border-t border-b border-l-2 border-l-orange-600 bg-white">
         <div class="flex-auto">
           <p class="text-orange-600 uppercase font-bold">Dashboard</p>
           <p class="text-gray-500 font-light">Get help, account info</p>
