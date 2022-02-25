@@ -24,9 +24,15 @@ add_action( 'admin_menu', 'tailwp_register_page' );
 # Enqueue style in WP Admin
 function tailwp_enqueue_assets( string $hook ): void
 {
-  if( str_contains( $hook, 'tailwp' ) ) { 
-    wp_enqueue_style( 'tailwp', plugin_dir_url( __FILE__ ) . 'dist/styles.css', [], '1.0', 'all' );
+  # Styles for WP Rocket
+  if( str_contains( $hook, 'tailwp-wprocket' ) ) { 
+    wp_enqueue_style( 'tailwp-wprocket', plugin_dir_url( __FILE__ ) . 'dist/tailwp-wprocket.css', [], '1.0', 'all' );
   }
+
+  # Styles for GridBuilder
+  if( str_contains( $hook, 'tailwp-gridbuilder' ) ) { 
+    wp_enqueue_style( 'tailwp-gridbuilder', plugin_dir_url( __FILE__ ) . 'dist/tailwp-gridbuilder.css', [], '1.0', 'all' );
+  } 
 }
 
 

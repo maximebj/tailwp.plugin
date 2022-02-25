@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Remove annoying styles from WP admin stylesheet */ 
+#wpcontent {
+  @apply pl-0;
+}
+
+li {
+ @apply mb-0;
+}
+
+/* Special styles for WP GridBuilder */
+body[class*="tailwp-gridbuilder"] {
+  @apply bg-slate-100;
+}
+
+body[class*="tailwp-gridbuilder"].wp-core-ui select {
+  @apply border-none py-1 px-2 pr-10 bg-slate-100 uppercase font-semibold text-gray-500;
+}
+
+body[class*="tailwp-gridbuilder"] input[type=text] {
+  @apply uppercase border-none bg-slate-200 font-semibold text-gray-500;
+}
+
+body[class*="tailwp-gridbuilder"] .toggle-checkbox input {
+  display: none !important;
+}
+
+body[class*="tailwp-gridbuilder"] .toggle-checkbox input:checked + label {
+  @apply bg-blue-600;
+}
+
+body[class*="tailwp-gridbuilder"] .toggle-checkbox input:checked + label:after {
+  @apply translate-x-full border-blue-600;
+}

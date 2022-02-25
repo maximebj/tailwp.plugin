@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Remove padding left in WP admin */ 
+/* Remove annoying styles from WP admin stylesheet */  
 #wpcontent {
   @apply pl-0;
 }
@@ -41,18 +41,4 @@ body[class*="tailwp-wprocket"].wp-core-ui select {
 body[class*="tailwp-wprocket"] input[type=file] {
   @apply p-4 border;
   padding: .5em !important;
-}
-
-
-/* Special styles for WP GridBuilder */
-body[class*="tailwp-gridbuilder"] {
-  @apply bg-slate-100;
-}
-
-body[class*="tailwp-gridbuilder"].wp-core-ui select {
-  @apply border-none py-1 px-2 pr-10 bg-slate-100 uppercase font-semibold text-gray-500;
-}
-
-body[class*="tailwp-gridbuilder"] input[type=text] {
-  @apply uppercase border-none bg-slate-200 font-semibold text-gray-500;
 }
